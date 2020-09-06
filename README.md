@@ -36,71 +36,73 @@
           <img src="./media/sponsor/wangyi.png" style="margin: 0 auto;width:450px" /></a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://faxian.lagou.com/discover/05a25f7c41404735b01b7f2a61bcf833.html?ver=2&utm_campaign=gongzhonghaolyw&utm_medium=koushuang&utm_source=weixinlyw">
-          <img src="./media/sponsor/lagou-new.jpeg" style="margin: 0 auto;width:450px" /></a>   
-      </td>        
-    </tr>
-    <tr>
-      <td align="center" valign="middle">
         <a href="https://t.1yb.co/3tWM">
           <img src="./media/sponsor/xiangxue.png" style="margin: 0 auto;width:450px" /></a>
-      </td>       
+      </td>          
     </tr>
   </tbody>
 </table>
 
 
 
+
 ## 目录
 
-- [Java](#java)
-    - [基础](#基础)
-    - [容器](#容器)
-    - [并发](#并发)
-    - [JVM](#jvm)
-    - [其他](#其他)
-- [网络](#网络)
-- [操作系统](#操作系统)
-    - [Linux](#linux)
-- **[数据结构与算法](#数据结构与算法)**
-    - [数据结构](#数据结构)
-    - [算法](#算法)
-- [数据库](#数据库)
-    - [MySQL](#mysql)
-    - [Redis](#redis)
-- [系统设计](#系统设计)
-    - [必知](#必知)
-    - [常用框架](#常用框架)
-        - [Spring](#springspringboot)
-        - [SpringBoot](#springboot)
-        - [MyBatis](#mybatis)
-    - [认证授权(JWT、SSO)](#认证授权)
-    - [分布式](#分布式)
-        - [分布式搜索引擎](#分布式搜索引擎)
-        - [RPC](#rpc)
-        - [消息队列](#消息队列)
-        - [API 网关](#api-网关)
-        - [分布式id](#分布式id)
-        - [分布式限流](#分布式限流)
-        - [分布式接口幂等性](#分布式接口幂等性)
-        - [数据库扩展](#数据库扩展)
-        - [ZooKeeper](#zookeeper)
-    - [大型网站架构](#大型网站架构)
-        - [性能测试](#性能测试)
-        - [高并发](#高并发)
-        - [高可用](#高可用)
-    - [微服务](#微服务)
-        - [Spring Cloud](#spring-cloud)
-- [必会工具](#必会工具)
-    - [Git](#git)
-    - [Docker](#docker)
-- [面试指南](#面试指南)
-- [Java学习常见问题汇总](#java学习常见问题汇总)
-- [资源](#资源)
-    - [Java程序员必备书单](#java程序员必备书单)
-    - [实战项目推荐](#实战项目推荐)
-- [待办](#待办)
-- [说明](#说明)
+ * [目录](#目录)
+ * [Java](#java)
+    * [基础](#基础)
+    * [容器](#容器)
+    * [并发](#并发)
+    * [JVM](#jvm)
+    * [其他](#其他)
+ * [网络](#网络)
+ * [Netty](#netty)
+ * [操作系统](#操作系统)
+    * [Linux](#linux)
+ * [数据结构与算法](#数据结构与算法)
+    * [数据结构](#数据结构)
+    * [算法](#算法)
+ * [数据库](#数据库)
+    * [MySQL](#mysql)
+    * [Redis](#redis)
+ * [系统设计](#系统设计)
+    * [必知](#必知)
+    * [常用框架](#常用框架)
+       * [Spring/SpringBoot](#springspringboot)
+       * [MyBatis](#mybatis)
+    * [认证授权](#认证授权)
+       * [JWT](#jwt)
+       * [SSO(单点登录)](#sso单点登录)
+    * [分布式](#分布式)
+       * [分布式搜索引擎](#分布式搜索引擎)
+       * [RPC](#rpc)
+       * [消息队列](#消息队列)
+       * [API 网关](#api-网关)
+       * [分布式id](#分布式id)
+       * [分布式限流](#分布式限流)
+       * [分布式接口幂等性](#分布式接口幂等性)
+       * [ZooKeeper](#zookeeper)
+       * [其他](#其他-1)
+       * [数据库扩展](#数据库扩展)
+    * [大型网站架构](#大型网站架构)
+       * [性能测试](#性能测试)
+       * [高并发](#高并发)
+       * [高可用](#高可用)
+    * [微服务](#微服务)
+       * [Spring Cloud](#spring-cloud)
+ * [必会工具](#必会工具)
+    * [Git](#git)
+    * [Docker](#docker)
+    * [其他](#其他-2)
+ * [面试指南](#面试指南)
+ * [Java学习常见问题汇总](#java学习常见问题汇总)
+ * [资源](#资源)
+    * [Java程序员必备书单](#java程序员必备书单)
+    * [实战项目推荐](#实战项目推荐)
+    * [Github](#github)
+ * [待办](#待办)
+ * [说明](#说明)
+
 
 ## Java
 
@@ -161,16 +163,18 @@
 
 ### 其他
 
-1. **I/O** ：[BIO,NIO,AIO 总结 ](docs/java/BIO-NIO-AIO.md)
-2. **Java 8**  ：[Java 8 新特性总结](docs/java/What's%20New%20in%20JDK8/Java8Tutorial.md)、[Java 8 学习资源推荐](docs/java/What's%20New%20in%20JDK8/Java8教程推荐.md)、[Java8 forEach 指南](docs/java/What's%20New%20in%20JDK8/Java8foreach指南.md)
-3. **Java9~Java14** : [一文带你看遍JDK9~14的重要新特性！](./docs/java/jdk-new-features/new-features-from-jdk8-to-jdk14.md)
-4. Java编程规范：**[Java 编程规范以及优雅 Java 代码实践总结](docs/java/Java编程规范.md)** 、[告别编码5分钟，命名2小时！史上最全的Java命名规范参考！](docs/java/java-naming-conventions.md)
-5. 设计模式 :[设计模式系列文章](docs/system-design/设计模式.md)
+1.  **Linux IO** ： [Linux IO](docs/java/Linux_IO.md)
+2. **I/O** ：[BIO,NIO,AIO 总结 ](docs/java/BIO-NIO-AIO.md)
+3. **Java 8**  ：[Java 8 新特性总结](docs/java/What's%20New%20in%20JDK8/Java8Tutorial.md)、[Java 8 学习资源推荐](docs/java/What's%20New%20in%20JDK8/Java8教程推荐.md)、[Java8 forEach 指南](docs/java/What's%20New%20in%20JDK8/Java8foreach指南.md)
+4. **Java9~Java14** : [一文带你看遍JDK9~14的重要新特性！](./docs/java/jdk-new-features/new-features-from-jdk8-to-jdk14.md)
+5. Java编程规范：**[Java 编程规范以及优雅 Java 代码实践总结](docs/java/Java编程规范.md)** 、[告别编码5分钟，命名2小时！史上最全的Java命名规范参考！](docs/java/java-naming-conventions.md)
+6. 设计模式 :[设计模式系列文章](docs/system-design/设计模式.md)
 
 ## 网络
 
 1. [计算机网络常见面试题](docs/network/计算机网络.md)
 2. [计算机网络基础知识总结](docs/network/干货：计算机网络知识总结.md)
+
 
 ## 操作系统
 
@@ -180,7 +184,8 @@
 
 * [后端程序员必备的 Linux 基础知识](docs/operating-system/linux.md)  
 * [Shell 编程入门](docs/operating-system/Shell.md) 
-* [完全使用GNU_Linux学习](docs/operating-system/完全使用GNU_Linux学习.md)
+* [我为什么从Windows转到Linux？](docs/operating-system/完全使用GNU_Linux学习.md)
+* [Linux IO模型](docs/operating-system/Linux_IO.md)
 * [Linux 性能分析工具合集](docs/operating-system/Linux性能分析工具合集.md)
 
 ## 数据结构与算法
@@ -222,13 +227,6 @@
 
 * [关于缓存的一些重要概念(Redis前置菜)](docs/database/Redis/some-concepts-of-caching.md)
 * [Redis 常见问题总结](docs/database/Redis/redis-all.md)
-* **Redis 系列文章合集：**
-  1. 数据结构和算法 ：[5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)、[跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)、[神奇的HyperLoglog解决统计问题](docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题.md)、[亿级数据过滤和布隆过滤器](docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器.md)、[GeoHash查找附近的人](docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人.md)
-  3. Redis锁：[分布式锁深入探究](docs/database/Redis/redis-collection/Redis(3)——分布式锁深入探究.md) 、 [Redlock分布式锁](docs/database/Redis/Redlock分布式锁.md) 、[如何做可靠的分布式锁，Redlock真的可行么](docs/database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md)
-  7. [持久化](docs/database/Redis/redis-collection/Redis(7)——持久化.md)
-  8. [发布订阅与Stream](docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream.md)
-  9. [史上最强【集群】入门实践教程](docs/database/Redis/redis-collection/Redis(9)——集群入门实践教程.md)
-  10. [Redis数据类型、编码、底层数据结构的关系看这篇](docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系.md)
 
 ## 系统设计
 
@@ -524,5 +522,3 @@ Logo下的小图标是使用[Shields.IO](https://shields.io/) 生成的。
 **Java工程师必备学习资源:** 一些Java工程师常用学习资源公众号后台回复关键字 **“1”** 即可免费无套路获取。 
 
 ![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
-
-
